@@ -1,0 +1,3 @@
+grid_dim: 64
+resolution: 0.25
+cubes_around: 8

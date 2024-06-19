@@ -1,0 +1,38 @@
+defaults:
+  - dset: crossdocked
+  - model: voxbind
+  - vox: default
+  - wjs: training
+  - override hydra/job_logging: custom
+  - _self_
+
+debug: False
+wandb: False
+num_workers: 4
+resume: null
+exp_dir: exps
+exp_name: exp_sig${smooth_sigma}${hydra.job.override_dirname}
+output_dir: null
+
+seed: 42
+num_epochs: 350
+aug: True  # use data augmentation
+bsz: 64  # batch size
+lr: 1e-5
+wd: 1e-2
+smooth_sigma: .9
+
+# set the running dir
+hydra:
+  run:
+    dir: ./${exp_dir}/${exp_name}
+  job:
+    config:
+      override_dirname:
+        kv_sep: ""
+        item_sep: "_"
+        exclude_keys: [
+            "exp_dir", "smooth_sigma", "lr", vox.grid_dim, "wd", "resume", "wandb",
+            "num_workers", "exp_name", "output_dir", "pretrained_path", "out_dir",
+            "bsz", "seed", "num_epochs", "aug", "pocket_radius", "grid_dim", "aug"
+]

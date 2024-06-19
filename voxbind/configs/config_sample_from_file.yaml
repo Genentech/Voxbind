@@ -1,0 +1,24 @@
+defaults:
+  - dset: crossdocked
+  - vox: default
+  - wjs: sampling
+  - override hydra/job_logging: custom
+  - _self_
+pretrained_path: exps/exp_sig0.9/
+out_dir: samples_from_file
+save_dir: ./${pretrained_path}/${out_dir}
+target_pdb: ../examples/8UWP/8uwp.pdb
+ligand_sdf: ../examples/8UWP/8uwp_C_XRU.sdf
+n_samples: 20
+seed: 1234
+
+# set the running dir
+hydra:
+  run:
+    dir: ${save_dir}
+  job:
+    config:
+      override_dirname:
+        kv_sep: ""
+        item_sep: "_"
+        exclude_keys: ["save_dir", "exp_dir", "pretrained_path", "out_dir"]

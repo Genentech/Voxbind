@@ -1,0 +1,21 @@
+defaults:
+  - dset: crossdocked
+  - vox: default
+  - wjs: sampling
+  - override hydra/job_logging: custom
+  - _self_
+pretrained_path: null
+out_dir: res
+save_dir: ./${pretrained_path}/samples/${out_dir}
+seed: 1234
+
+# set the running dir
+hydra:
+  run:
+    dir: ${save_dir}
+  job:
+    config:
+      override_dirname:
+        kv_sep: ""
+        item_sep: "_"
+        exclude_keys: ["save_dir", "exp_dir", "pretrained_path", "out_dir"]

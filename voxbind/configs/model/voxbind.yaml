@@ -1,0 +1,7 @@
+model_name: voxbind
+n_channels: 32
+ch_mults: [1, 2, 2, 4]
+is_attn: [False, False, True, True]
+n_blocks: 2
+n_groups: 16
+dropout: .1

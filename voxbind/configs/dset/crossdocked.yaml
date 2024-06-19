@@ -1,0 +1,4 @@
+dset_name: crossdocked
+data_dir: dataset/data
+ligand_radius: 0.5
+pocket_radius: -1

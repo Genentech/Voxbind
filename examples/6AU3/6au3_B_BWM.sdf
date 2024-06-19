@@ -1,0 +1,85 @@
+BWM
+  ModelServer 0.9.11
+
+ 18 19  0  0  0  0  0  0  0  0  0
+   16.6270   60.2870    6.7220 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.8240   60.2080    5.3540 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.1970   59.2260    4.6170 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.2800   57.4340    7.2400 N   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3530   58.3140    5.2350 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1520   58.3980    6.6100 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.5440   55.6040    8.1990 N   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5730   56.1300    7.5860 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8380   55.4210    7.2590 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.9880   57.6440    7.6590 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.2240   58.8920    7.4320 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5400   56.5610    8.2470 N   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5710   57.6370   10.8190 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7200   57.4700   10.4310 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5590   56.3280   10.9140 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2840   58.2760    9.5210 N   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6490   59.4120    8.8760 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7940   59.3820    7.3740 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1 18  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  5  2  0  0  0  0
+  4  6  1  0  0  0  0
+  4  8  1  0  0  0  0
+  4 10  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6 18  2  0  0  0  0
+  7  8  2  0  0  0  0
+  7 12  1  0  0  0  0
+  8  9  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 12  2  0  0  0  0
+ 13 14  2  0  0  0  0
+ 14 16  1  0  0  0  0
+ 14 15  1  0  0  0  0
+ 16 17  1  0  0  0  0
+ 17 18  1  0  0  0  0
+M  END
+> <model_server_result.job_id>
+KAKNuu2uIk69lOP2JwYxtg
+
+> <model_server_result.datetime_utc>
+2024-06-05 00:16:04
+
+> <model_server_result.server_version>
+0.9.11
+
+> <model_server_result.query_name>
+ligand
+
+> <model_server_result.source_id>
+pdb-bcif
+
+> <model_server_result.entry_id>
+6au3
+
+> <model_server_params.name>
+atom_site
+
+> <model_server_params.value>
+{"label_asym_id":"B","auth_seq_id":501}
+
+> <model_server_stats.io_time_ms>
+6
+
+> <model_server_stats.parse_time_ms>
+198
+
+> <model_server_stats.create_model_time_ms>
+4
+
+> <model_server_stats.query_time_ms>
+253
+
+> <model_server_stats.encode_time_ms>
+0
+
+> <model_server_stats.element_count>
+18
+
+$$$$

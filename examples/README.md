@@ -1,0 +1,1 @@
+The pdb and sdf files here have been downloaded from the PDB website: [6AU3](https://www.rcsb.org/3d-view/6AU3) and [8UWP](https://www.rcsb.org/3d-view/8UWP/). We remove all the water and heteroatoms from the pdb files (since the model has been trained without them).

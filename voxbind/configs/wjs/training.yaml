@@ -1,0 +1,11 @@
+n_samples_per_pocket: 10
+n_targets: 100
+chain_init: denovo
+n_chains: 50
+steps: 100
+max_steps: 100
+warmup: 400
+mask_pocket: 1
+start: 0
+end: 100
+split: val

@@ -1,0 +1,9 @@
+jobs/
+notebooks/
+scripts/
+**/__pycache__/
+**/wandb/
+**/data
+**/exps
+**/data_crossdocked*
+**/*egg-info*
